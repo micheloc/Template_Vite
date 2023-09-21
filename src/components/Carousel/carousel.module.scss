@@ -1,0 +1,22 @@
+.container-text .bn-1{ 
+  position: relative;
+  background-color: whitesmoke;
+  color: #0c9246;
+  padding: 5px;
+  padding-left: 25px;
+  margin-bottom: 10px;
+  opacity: 0;
+  top: -900px;
+}
+
+@keyframes bn-effect-1 {
+  45%{
+    opacity: 0.5;
+  }
+  100% {
+    top: 0; /* Posição final no topo, ajuste conforme necessário */
+    opacity: 1;
+  }
+}
+
+.bn-1.bn-effect-1{ animation: down1 1s forwards; }

@@ -1,0 +1,68 @@
+.contact{ 
+  height: 1000px;
+}
+
+.footer{ 
+    height: 450px;
+    padding-left: 10%;
+    padding-right: 10%;
+    width: 100%;
+    background-color: #ededed;
+  }
+  
+  .footer-group { 
+    text-align: justify;
+  }
+  
+  .footer .row { 
+    margin-top: 10px;
+  }
+  
+  .footer button { 
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    justify-content: space-between;
+    width: 40%;
+  }
+  
+  .footer button:hover { 
+    background: linear-gradient(to bottom, white, gold);
+    border-radius: 5px;
+  }
+
+  .contato button { 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 40%;
+  }
+
+  .contato button { 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 40%;
+  }
+
+  .contato button:hover { 
+    background: linear-gradient(to bottom, white, gold);
+    border-radius: 5px;
+  }
+
+  
+  .footer button svg {
+    margin-right: 5px; /* Adicione espaço à direita do ícone */
+  }
+  
+  .footer button span {
+    margin-left: 5px; /* Adicione espaço à esquerda do texto */
+  }
+
+  .copyright { 
+    text-align-last: center;
+    font-size: 12px;
+    font-weight: bold;
+    height: 15px;
+    width: 100%;
+  }

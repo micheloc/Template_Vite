@@ -1,0 +1,36 @@
+.container { 
+  height: 100%;
+  max-height: 1000px;
+}
+
+@media (max-width: 530px) {
+  .item {
+    display: flex;
+    padding-left: 60px;
+    padding-right: 60px;
+    width: 100%;
+    padding-top: 110px;
+    padding-bottom: 110px;
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+}
+
+@media (min-width: 531px) {
+  .item {
+    display: flex;
+    padding-left: 60px;
+    padding-right: 60px;
+    width: 90%;
+    padding-top: 110px;
+    padding-bottom: 110px;
+  }
+}
+
+
+
+.title-page{
+  width: 99.8%;
+  height: 150px;
+  background: linear-gradient(7deg, #000000,#454545,#898383, transparent);
+}
